@@ -19,7 +19,7 @@ export default function PlacePage() {
     });
   }, [id]);
   if (!place) {
-    return "";
+    return <div> </div>;
   }
 
   return (

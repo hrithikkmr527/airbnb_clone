@@ -21,7 +21,7 @@ export default function BookingPage() {
   }, [id]);
 
   if (!booking) {
-    return "";
+    return <div> </div>;
   }
 
   return (
